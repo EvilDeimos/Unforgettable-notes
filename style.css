@@ -1,0 +1,125 @@
+body {
+  background-color: #212d40 !important;
+}
+
+.navbar {
+  background-color: #72474f !important;
+  border-radius: 0px 0px 35px 35px;
+}
+
+.navbar-brand {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 30px !important;
+}
+textarea.form-control {
+  resize: none;
+  background-color: #364156 !important;
+  text-decoration: none;
+  outline: none;
+  border: #364156 !important;
+  box-shadow: 9px 9px 21px #2f394b, -9px -9px 21px #3d4961;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card {
+  border-radius: 20px !important;
+  background-color: #364156 !important;
+  flex-direction: row;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+input {
+  background-color: #364156 !important;
+  text-decoration: none;
+  outline: none;
+  border: #364156 !important;
+  box-shadow: 9px 9px 21px #2f394b, -9px -9px 21px #3d4961;
+  border-radius: 10px;
+  line-height: 20px;
+  padding: 20px;
+  font-family: "IBM Plex Mono", monospace;
+  display: flex;
+  vertical-align: middle;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.btn-success {
+  background-color: rgb(44, 109, 66) !important;
+  outline: none;
+  border: none !important;
+  margin: 4px;
+  border-radius: 10px !important;
+}
+.btn-danger {
+  background-color: #7d4e57 !important;
+  outline: none;
+  border: none !important;
+  margin: 4px;
+  border-radius: 10px !important;
+}
+
+.btn-warning {
+  background-color: rgb(197, 169, 45) !important;
+  outline: none;
+  border: none !important;
+  border-radius: 10px !important;
+  margin: 4px;
+}
+
+.title {
+  background-color: #364156 !important;
+  text-decoration: none;
+  outline: none;
+  border: #364156 !important;
+  box-shadow: 9px 9px 21px #2f394b, -9px -9px 21px #3d4961;
+  border-radius: 10px;
+
+  padding: 10px;
+}
+.notes {
+  background-color: #364156 !important;
+  text-decoration: none;
+  outline: none;
+  border: #364156 !important;
+  box-shadow: 9px 9px 21px #2f394b, -9px -9px 21px #3d4961;
+  border-radius: 10px;
+  height: 200px;
+  padding: 10px;
+}
+
+/* Scrollbar */
+/* chrome safari edge */
+body::-webkit-scrollbar {
+  width: 8px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #72474f; /* color of the scroll thumb */
+  border-radius: 0px; /* roundness of the scroll thumb */
+  /* border: 3px dotte orange; creates padding around scroll thumb */
+  height: 10px;
+}
+
+/* Firefox */
+body {
+  scrollbar-width: thin; /* "auto" or "thin" */
+  scrollbar-color: #72474f transparent; /* scroll thumb and track */
+}
+
+.card-body {
+  font-family: "Roboto Slab", serif;
+}

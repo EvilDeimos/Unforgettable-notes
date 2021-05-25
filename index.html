@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UNFORGETTABLE - Best Notes App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,600&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-dark">
+      <div class="container justify-content-center nav-container">
+        <span class="navbar-brand mb-0 h1">Unforgattable</span>
+      </div>
+    </nav>
+    <!-- main page -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 mt-5">
+          <!-- main control -->
+          <div class="kiri">
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <input type="text" class="input-group mb-3 text-white" placeholder="Note Title" id="title" />
+                <textarea class="form-control text-white" placeholder="Leave a comment here" id="isian" style="height: 148px"></textarea>
+                <div class="button-container mt-2">
+                  <button type="button" class="btn btn-success mt-2" id="submit">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9 main" id="main">
+          <!-- <div class="card mt-5 me-4" style="width: 18rem">
+            <div class="card-body">
+              <div class="title">
+                <h2 class="text-white ms-2">${element.title}</h2>
+              </div>
+              <div class="notes mt-3">
+                <p class="text-white ms-2">${element.text}</p>
+              </div>
+              <div class="button-container mt-2">
+                <button type="button" id="${index}" onclick="editNote(this.id)" class="btn btn-warning mt-2 text-white"><i class="fas fa-edit"></i></button>
+                <button type="button" id="${index}" onclick="deleteNote(this.id)" class="btn btn-danger mt-2"><i class="fas fa-trash-alt"></i></button>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/877ba36ec0.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
